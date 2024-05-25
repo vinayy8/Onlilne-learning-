@@ -1,0 +1,103 @@
+.registration-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(79deg, #323042, #3d1989 48%, #764245);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.registration {
+  background-color: linear-gradient(79deg, #323042, #3d1989 48%, #764245);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border: thick double #32a1ce;
+  width: 30em;
+}
+
+.login {
+  background-color: linear-gradient(79deg, #323042, #3d1989 48%, #764245);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border: thick double #32a1ce;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1mm ridge rgba(2, 118, 220, 0.913);
+  border-radius: 30px;
+  box-sizing: border-box;
+  /* font-family: Georgia,serif; */
+  font-family: system-ui;
+  font-size: 1.2rem;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size:16px ;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #12874a;
+}
+
+.dob-fields {
+  display: flex;
+  gap: 3em;
+}
+
+.dob-fields select {
+  flex: 1;
+  margin-right: 10px;
+}  
+
+
+
+
+
+
+
+
+/* 
+#course {
+  width: 100%;
+  padding: 10px;
+  border: 1mm ridge rgba(2, 118, 220, 0.913);
+  border-radius: 30px;
+  box-sizing: border-box;
+  font-family: system-ui;
+  font-size: 1.2rem;
+  color: #000; 
+}
+
+#course option {
+  color: #000; 
+} */
